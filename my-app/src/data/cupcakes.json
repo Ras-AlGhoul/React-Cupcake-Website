@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "image": "ccake01.jpg",
+        "title": "Blueberry CupCake",
+        "price": 30
+    }
+    ,
+    {
+        "id":2,
+        "image": "ccake02.jpg",
+        "title": "Original Cupkake",
+        "price": 15
+    }
+    ,
+    {
+        "id":3,
+        "image": "ccake03.jpg",
+        "title": "Blue Velvet Cupcake",
+        "price": 35
+    }
+    ,
+    {
+        "id":4,
+        "image": "ccake04.jpg",
+        "title": "Cinnamon cream Cupcake",
+        "price": 28
+    }
+    ,
+    {
+        "id":5,
+        "image": "ccake05.jpg",
+        "title": "Flourless Choco Cupcake",
+        "price": 30
+    }
+    ,
+    {
+        "id":6,
+        "image": "ccake06.jpg",
+        "title": "PeanutsButter Cupcake",
+        "price": 35
+    }
+    ,
+    {
+        "id":7,
+        "image": "ccake07.jpg",
+        "title": "Cookie Cupcake",
+        "price": 45
+    }
+    ,
+    {
+        "id":8,
+        "image": "ccake08.jpg",
+        "title": "Carrot Cupcake",
+        "price": 24
+    }
+    ,
+    {
+        "id":9,
+        "image": "ccake09.jpg",
+        "title": "Lemon Cupcake",
+        "price": 20
+    }
+    ,
+    {
+        "id":10,
+        "image": "ccake10.jpg",
+        "title": "Black Velvet Cupcake",
+        "price": 60
+    }
+    ,
+    {
+        "id":11,
+        "image": "ccake11.jpg",
+        "title": "Banana Cupcake",
+        "price": 25
+    }
+    ,
+    {
+        "id":12,
+        "image": "ccake12.jpg",
+        "title": "Oreo Cupcake",
+        "price": 65
+    }
+    ,
+    {
+        "id":13,
+        "image": "ccake13.jpg",
+        "title": "Gingerbread Cupcake",
+        "price": 50
+    }
+    ,
+    {
+        "id":14,
+        "image": "ccake14.jpg",
+        "title": "Toasted S’mores Cupcake",
+        "price": 40
+    }
+    ,
+    {
+        "id":15,
+        "image": "ccake15.jpg",
+        "title": "Sprinkles partymaker Cupcakes",
+        "price": 125
+    }
+    ,
+    {
+        "id":16,
+        "image": "ccake16.jpg",
+        "title": "Autumn Wonderland Cupcakes",
+        "price": 125
+    }
+    
+    ]

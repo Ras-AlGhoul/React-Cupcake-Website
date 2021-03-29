@@ -1,0 +1,9 @@
+/* globals */
+@import "./shared.css";
+@import "./variables.css";
+/* speciecs */
+@import "./content.css";
+@import "./introduction.css";
+@import "./main-menu.css";
+@import "./footer.css";
+@import "./picture-item.css";

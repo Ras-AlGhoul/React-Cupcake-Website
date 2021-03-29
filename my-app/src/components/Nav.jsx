@@ -1,10 +1,23 @@
+import React from "react";
+import {Link} from "react-router-dom";
+
 export default function Nav(){
     return (
         <nav className="main-menu">
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+       
+            <Link to= "/home">
+            <a >Home</a>
+            </Link>
+            <Link to= "/products">
+            <a>Products</a>
+            </Link>
+            <Link to= "/about">
+            <a>About</a>
+            </Link>
+            <Link to="/contact">
+            <a>Contact</a>
+            </Link>
+     
     </nav>
 
     );

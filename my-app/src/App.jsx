@@ -1,55 +1,35 @@
-import Product from "./components/products"
-import cupcakesJSON from "./data/cupcakes.json"
-import cakesJSON from "./data/cakes.json"
+import ProductPage from "./components/products"
 import Header from "./components/header.jsx"
 import Nav from "./components/Nav.jsx"
 import Footer from "./components/footer.jsx"
 import "./styles/styles.css";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from "./components/home.jsx"
+import About from "./components/about.jsx"
+import Contact from "./components/contact.jsx"
 
 function App() {
-  const CupCakesArray = cupcakesJSON.map((item) => {
-    return (
-      
-      <Product 
-      key={item.id}
-      fileName={item.image}
-      title={item.title}
-      price={item.price}
-      />
-    );
-  });
-  const CakesArray = cakesJSON.map((item) => {
-    return (
-      
-      <Product 
-      key={item.id}
-      fileName={item.image}
-      title={item.title}
-      price={item.price}
-      />
-    );
-  });
   
 
   return (
-  <div>
+    <Router>
+    <div>
+
     <Header/> 
 
     <Nav />
-   
-    <section className="content"> 
-        <div className="points"> <h2>Cupcakes</h2> </div>
-        <div className="grid">{CupCakesArray}</div>
-        </section>
 
-    <section className="content"> 
-        <div className="points"> <h2>Wedding Cakes</h2> </div>
-        <div className= "grid">{CakesArray}</div>
-        </section>
+    <Switch>
+    <Route path= "/home" component={Home}/>
+    <Route path="/about" component={About} />
+    <Route path="/contact" component={Contact}/>
+    <Route path="/products" component={ProductPage}/>
+    </Switch>
 
     <Footer />
    
   </div>
+  </Router>
 );
 }
 
